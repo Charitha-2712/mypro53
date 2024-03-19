@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+       *{
+        font-style: italic;
+       }
+        nav{
+            display: flex;
+            background-color: blanchedalmond;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            /* border: 2px solid; */
+            width: 1500px;
+            font-variant: small-caps;
+        }
+        li{
+            font-size: 20px;
+        }
+        div{
+          padding: 5%;
+        }
+    </style>
+</head>
+<body>
+  <nav id="nav">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.RwiEi5B-ifUgiBwV7JcZuwAAAA&pid=Api&rs=1&c=1&qlt=95&w=351&h=89" alt="" height="50px" width="130px">
+    <ul>
+        <li><a href="{% url 'myapp:home' %}">home</a></li>
+        <li><a href="{% url 'myapp:courses' %}">courses</a></li>
+        <li><a href="{% url 'myapp:trainers' %}">trainers</a></li>
+        <li><a href="{% url 'myapp:enquiry' %}">enquiry</a></li>
+        <li><a href="{% url 'myapp:about' %}">about</a></li>
+        <li><a href="{% url 'myapp:login' %}">Login</a></li>
+        <li><a href="{% url 'myapp:logout' %}">Logout</a></li>
+
+
+      </ul>
+  </nav>
+    <div id="main">
+      <div class="card-group">
+        <div class="card">
+          <img src="https://www.hydlitfest.org/wp-content/uploads/2022/10/Untitled-design-59.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SHANKAR NARYAN</h5>
+            <p class="card-text">I am skilled enough in Software Testing in both Manual and Automation, Hands on experience on selenium tool and testing tools like Jira , QC , Bugzilla, I have worked for HP and now i am currently working on automation project in Testyantra Pvt Ltd.
+              Hands on experience in writing test cases. Hands on experience in reviewing test cases.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.licdn.com/dms/image/D5603AQFu1yMYWGtSYA/profile-displayphoto-shrink_200_200/0/1701930632161?e=2147483647&v=beta&t=JPngBgiZKyK_RGTkDsjXgnmA7Asu0VRbkCR9dcRVo5s" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IRSHAN</h5>
+            <p class="card-text">Experienced Technical Trainer with a demonstrated history of working in the education management industry. Skilled in python, c prgramming, c++,data structure, java, CATIA,linux and unix. Strong information technology professional with development as well as teaching skills.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.yourstory.com/cs/images/people/girishqspider1-1596105338506.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">GIRISH</h5>
+            <p class="card-text">Girish is the CEO and Managing Director of “Test Yantra” India’s largest Testing Services and Training Organization. With his exemplary leadership and entrepreneurial skills he has led Test Yantra from a humble beginning of Training center to an accomplished Testing Services and Training organization with its presence across globe.</p>
+          </div>
+        </div>
+      </div>  
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     
+</body>
+</html>

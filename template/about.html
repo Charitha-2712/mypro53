@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            font-style: italic;
+        }
+        nav{
+            display: flex;
+            background-color: blanchedalmond;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            /* border: 2px solid; */
+            width: 1500px;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+        li{
+            font-size: 20px;
+        }
+        p{
+            font-size: 25px;
+            padding: 5%;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.RwiEi5B-ifUgiBwV7JcZuwAAAA&pid=Api&rs=1&c=1&qlt=95&w=351&h=89" alt="" height="50px" width="130px">
+        <ul>
+            <li><a href="{% url 'myapp:home' %}">home</a></li>
+            <li><a href="{% url 'myapp:courses' %}">courses</a></li>
+            <li><a href="{% url 'myapp:trainers' %}">trainers</a></li>
+            <li><a href="{% url 'myapp:enquiry' %}">enquiry</a></li>
+            <li><a href="{% url 'myapp:about' %}">about</a></li>
+            <li><a href="{% url 'myapp:login' %}">Login</a></li>
+            <li><a href="{% url 'myapp:logout' %}">Logout</a></li>
+
+        </ul>
+    </nav>
+    <p>
+        Professional development happens when professionals improve their skills which will enhance their performance- means of achieving it would be from corporate training.
+
+We have experience in providing on-site and offshore corporate training programs and successfully delivered many corporate training programs so far.
+
+We work with many organizations to provide corporate training in courses including Software Testing & Development.
+
+Value Addition Services:
+
+After the training, if the engineers start implementing the topics learnt during training, we provide free guidance to identify the gaps and fine tune the understanding for half day (if required).
+
+The trainer/s will have more than 6 years of experience in the area of Software Testing & Development.
+
+Training Benefits:
+
+After the training the Engineers (If he/she) will be in a position to work independently on a project.
+Engineers will have the understanding of Best practices in the industry.
+Engineers will be clear about implementation on projects.
+Lowest Rates and big savings to your budget.
+Delivery on Time with High quality training.
+<br><br>
+ Call / Email us to know more:
+ Rashmi   mobile:+916366110033  email:enquiry@qspiders.com
+
+
+    </p>
+
+</body>
+</html>
